@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.contenedor__error {
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    align-items: center;
+}
+.fondoRick {
+    width: 240px;
+    filter: drop-shadow(0 0 40px rgba(19, 227, 255, 0.4)); 
+}
+.tituloError {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    color: whitesmoke;
+}

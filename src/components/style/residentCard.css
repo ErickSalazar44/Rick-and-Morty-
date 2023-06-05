@@ -1,0 +1,87 @@
+:root {
+    --backgroundCard: #05201d;
+}
+.resident {
+    width: 100%;
+    max-width: 345px;
+    background-color: var(--backgroundCard);
+    color: white;
+    border-radius: 0.4em;
+    overflow: hidden;
+    z-index: 1000;
+    margin: 1em 0;
+}
+.resident__header {
+    position: relative;
+    border-radius: 0.5em 0.5em 0 0;
+    overflow: hidden;
+}
+.resident__status {
+    position: absolute;
+    top: 15%;
+    width: 32%;
+    min-width: 100px;
+    background-color: var(--backgroundCard);
+    padding: 0.3em 0.8em;
+    border-radius: 0 0.6em 0.6em 0;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.resident__circle {
+    display: inline-block;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50px;
+    background-color: #ccc;
+}
+
+.resident__status > .Alive{
+    background-color: lightgreen;
+}
+
+.resident__status > .Dead {
+    background-color: lightcoral;
+}
+
+/*Resident body */
+.resident__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+}
+.resident__name{
+    font-size: 1.4rem;
+    width: 100%;
+    margin: 0.4em 0;
+    text-align: center;
+}
+.resident__hr {
+    opacity: 0.3;
+}
+.resident__list {
+    margin: 0.6em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.resident__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.resident__label {
+    opacity: 0.5;
+    font-size: 0.9rem;
+}
+
+@media (min-width:1000px) {
+    .resident {
+        max-width: 300px;
+    }
+    .resident__img {
+        height: 270px;
+    }
+}

@@ -1,0 +1,36 @@
+.footer__personal {
+    background-color: #222;
+    color: #999;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__inf {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    justify-content: space-around;
+}
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__icon {
+    font-size: 1.5rem;
+}
+.footer__contact a {
+    color: #9c9a9a;
+}
+.footer__contact {
+    display: flex;
+    gap: 1em;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+.footer__name:hover {
+    color: whitesmoke;
+}

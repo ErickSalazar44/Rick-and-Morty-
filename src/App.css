@@ -1,0 +1,67 @@
+.app {
+    width: 100%;
+    color: whitesmoke;
+}
+/*BANNER SECTION*/
+.banner_contenedor {
+    width: 100%;
+    position: relative;
+}
+.banner {
+    background-image: url('../banner.webp');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 140px;
+    opacity: 0.8;
+}
+.titulo {
+    position: absolute;
+    width: 60%;
+    max-width: 380px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2000;
+    filter: drop-shadow(0 0 30px rgba(19, 255, 51, 0.26)); 
+    transition: filter 0.5s, transform 0.5s;
+}
+.titulo:hover {
+    filter: drop-shadow(0 0 40px rgba(19, 255, 51, 0.5));
+}
+.tituloError2 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7;
+    text-shadow: 5px 5px 10px rgba(9, 241, 210, 0.74);
+}
+@media (min-width:800px) {
+    .banner {
+        height: 180px;
+    }
+}
+@media (min-width:1200px) {
+    .banner {
+        height: 290px;
+    }
+}
+
+.resident__container {
+    display: flex;
+    height: 100%;
+    padding: 1em;
+    width: 100%;
+    max-width: 1600px;
+    align-items: center;
+    gap: 1em 0;
+    flex-wrap: wrap;
+    gap: 3em;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/*Pagination */
+.text__color {
+    color: whitesmoke;
+}
