@@ -8,7 +8,8 @@ import ParticlesBackground from './components/ParticlesBackground'
 import Banner from './components/Banner'
 import Pagination from './components/Pagination'
 import Footer from './components/Footer'
-import LocationInfo from './components/Locationinfo'
+import InformacionLocation from './components/InformacionLocation'
+
 
 
 function App() {
@@ -56,7 +57,7 @@ function App() {
           ? <h2 className='tituloError2'>{`Hey, try one of the options, " ${inputLocationName} " does not exist 😞`}</h2>
           : (
             <>
-              <LocationInfo location = {location}/>
+              <InformacionLocation location = {location}/>
               <main className='resident__container'>
                 {/* hacemos un map dependiendo de los residentes*/}
               {
