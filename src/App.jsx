@@ -1,13 +1,14 @@
 import { useEffect, useState} from 'react'
 import './App.css'
 import useFetch from './hooks/useFetch'
-import LocationInfo from './components/Locationinfo'
+
 import ResidentCard from './components/ResidentCard'
 import { FormSearch } from './components/FormSearch'
 import ParticlesBackground from './components/ParticlesBackground'
 import Banner from './components/Banner'
 import Pagination from './components/Pagination'
 import Footer from './components/Footer'
+import LocationInfo from './components/Locationinfo'
 
 
 function App() {
