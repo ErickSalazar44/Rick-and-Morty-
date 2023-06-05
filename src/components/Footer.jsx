@@ -20,7 +20,7 @@ const Footer = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="" target='_blank'>
+                        <a href="https://github.com/ErickSalazar44/clase3.3.1" target='_blank'>
                             <i className='bx bxl-github' ></i>
                         </a>
                     </li>
