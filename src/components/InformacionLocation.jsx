@@ -1,4 +1,4 @@
-import "./style/LocationInfo.css"
+import "./style/locationInfo.css"
 
 const InformacionLocation = ({location}) => {
   return (
