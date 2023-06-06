@@ -20,7 +20,7 @@ form {
     padding: 0.6em 1em;
     border-radius: 0 1em 1em 0;
     border: none;
-    max-height: 37px;
+    height: 100%;
 }
 .input__options {
     cursor: pointer;
