@@ -18,7 +18,7 @@
 .titulo {
     position: absolute;
     width: 60%;
-    max-width: 400px;
+    max-width: 550px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
